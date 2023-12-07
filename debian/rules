@@ -1,4 +1,9 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := nft/lib tests/nftlib
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang
+
+override_dh_auto_test:
+	test $$(id -u) -ne 0 || dh_auto_test --no-parallel
