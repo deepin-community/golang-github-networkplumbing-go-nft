@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-networkplumbing-go-nft (0.2.0-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration
+
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 28 Feb 2022 01:20:28 +0800
+
+golang-github-networkplumbing-go-nft (0.2.0-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 27 Feb 2022 03:23:12 +0800
